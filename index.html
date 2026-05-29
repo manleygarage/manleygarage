@@ -1,52 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Manley Garage</title>
-<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Manley Garage LLC</title>
+<style>
+body{margin:0;background:#0b0f14;color:white;font-family:Arial,sans-serif}
+.hero{padding:80px 20px;background:#111827}
+.container{max-width:1200px;margin:auto}
+.logo{width:360px;max-width:100%}
+h1{font-size:58px;margin:20px 0 10px}
+.blue{color:#3b82f6}
+.btn{display:inline-block;background:#2563eb;color:#fff;text-decoration:none;padding:14px 22px;border-radius:8px;margin-right:10px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:#161b22;padding:20px;border-radius:12px}
+section{padding:60px 20px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:15px}
+.gallery img{width:100%;height:280px;object-fit:cover;border-radius:12px}
+</style>
 </head>
 <body>
-<header class="hero">
-<nav>
-<h1>MANLEY GARAGE</h1>
-<div>
-<a href="#services">Services</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
+<div class="hero">
+<div class="container">
+<img class="logo" src="logo.svg">
+<h1>DEALERSHIP QUALITY.<br><span class="blue">MOBILE CONVENIENCE.</span></h1>
+<p>BMW Specialist • Mobile Mechanic • Cedarville, Xenia, Fairborn, Beavercreek, Centerville & Dayton</p>
+<a class="btn" href="https://www.instagram.com/manleygarage">Message on Instagram</a>
 </div>
-</nav>
-<div class="hero-content">
-<h2>BMW Specialists.<br>Mobile Service.</h2>
-<p>Cedarville, Ohio • We come to you.</p>
-<a class="btn" href="tel:8137438350">Call 813-743-8350</a>
 </div>
-</header>
 
-<section id="services">
-<h2>Popular Services & Pricing</h2>
+<section class="container">
+<h2>Popular Services</h2>
 <div class="cards">
-<div class="card"><h3>Diagnostics</h3><p>$10 Diagnostic Scan</p></div>
+<div class="card"><h3>Diagnostics</h3><p>$10</p></div>
 <div class="card"><h3>Oil Change</h3><p>$30 + Parts</p></div>
 <div class="card"><h3>Brake Service</h3><p>$150 + Parts</p></div>
+<div class="card"><h3>Electrical Diagnostics</h3><p>Starting at $25</p></div>
+<div class="card"><h3>Alternators & Starters</h3><p>Starting at $100 + Parts</p></div>
+<div class="card"><h3>BMW Repair</h3><p>Free Quote</p></div>
 </div>
 </section>
 
-<section id="about">
-<h2>Why Choose Manley Garage?</h2>
-<p>BMW-focused expertise with service for all makes and models. Honest pricing, quality repairs, and mobile convenience.</p>
+<section class="container">
+<h2>Real Repair Work</h2>
+<p>Actual BMW diagnostics, engine work, electrical troubleshooting, alternator replacement, battery work and repairs completed by Manley Garage.</p>
+<div class="gallery"><img src="work1.jpeg" alt="Repair work"><img src="work2.jpeg" alt="Repair work"><img src="work3.jpeg" alt="Repair work"><img src="work4.jpeg" alt="Repair work"><img src="work5.jpeg" alt="Repair work"><img src="work6.jpeg" alt="Repair work"></div>
 </section>
 
-<section id="gallery">
-<h2>Recent Work</h2>
-<p>Add your real repair photos here for maximum impact.</p>
+<section class="container">
+<h2>Why Manley Garage?</h2>
+<p>BMW enthusiast-owned. Honest diagnostics. Fair pricing. Mobile convenience. No dealership markups.</p>
+<p><strong>Phone:</strong> 813-743-8350</p>
+<p><strong>Instagram:</strong> @manleygarage</p>
 </section>
-
-<section id="contact">
-<h2>Need Service?</h2>
-<p>Call or text: 813-743-8350</p>
-<p>Instagram: @manleygarage</p>
-<p>Serving Cedarville, Ohio and surrounding areas.</p>
-</section>
-</body>
-</html>
+</body></html>
